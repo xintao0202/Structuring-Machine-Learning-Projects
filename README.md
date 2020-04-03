@@ -36,3 +36,6 @@ Guideline: choose a dev set and test set to reflect data you expect to get in th
 2.4 End-to-End Deep learning
 - End-to-end approach maps directly the input (x) to the output (y).
 - In many fields, it has been observed that end-to-end learning works better in practice, but requires a large amount of data.
+
+2.5 Chose activation function
+- Softmax would be a good choice if one and only one of the possibilities (stop sign, speed bump, pedestrian crossing, green light and red light) was present in each image. But not the case that you can choose multiple.
